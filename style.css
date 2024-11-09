@@ -1,0 +1,126 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* 탭 */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* 폼 스타일 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.horizontal-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-group {
+    width: 48%;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* 고정된 버튼 */
+.fixed-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.record-button {
+    padding: 10px 15px;
+    background-color: #7c1502;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.record-button:hover {
+    background-color: #555;
+}
+
+#chartContainer, #dietChartContainer {
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+ul li:nth-child(even) {
+    background-color: #e0e0e0;
+}
